@@ -1,5 +1,40 @@
 # Intermed-Dev-1-JS-Exploring-package-json
 
+## About This Project
+
+This project explores the structure and functionality of `package.json` in a Node.js project. It demonstrates how to initialize a Node.js project, manage dependencies, define npm scripts, and apply semantic versioning.
+
+The project includes a `factorial` function in `index.js` with a Jest test suite covering both normal and edge cases.
+
+## How to Run
+
+**Install dependencies:**
+```bash
+npm install
+```
+
+**Start the app:**
+```bash
+npm start
+```
+
+**Run tests:**
+```bash
+npm test
+```
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `index.js` | Main application entry point, contains the `factorial` function |
+| `index.test.js` | Jest test suite (7 tests: 3 normal, 4 edge cases) |
+| `package.json` | Project configuration and dependency manifest |
+| `package-lock.json` | Exact dependency versions for reproducible installs |
+| `report.md` | Written report explaining each section of `package.json` |
+
+---
+
 # Assignment: Exploring package.json in Node.js
 
 **Objective:** Understand the structure and functionality of the `package.json` file in a Node.js project.
