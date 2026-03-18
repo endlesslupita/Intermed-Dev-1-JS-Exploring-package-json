@@ -20,7 +20,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
     "start": "node index.js"
   },
   "dependencies": {
@@ -28,5 +28,10 @@
   },
   "devDependencies": {
     "jest": "^30.3.0"
-  }
+  },
+  "engines": {
+  "node": ">=25.3.0",
+  "npm": ">=11.6.2"
+}
+
 }
