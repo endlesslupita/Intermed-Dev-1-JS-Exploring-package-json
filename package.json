@@ -1,0 +1,32 @@
+{
+  "name": "intermed-dev-1-js-exploring-package-json",
+  "version": "1.0.0",
+  "description": "Sample project for exploring package.json creation and settings",
+  "keywords": [
+    "testing",
+    "packages",
+    "education"
+  ],
+  "homepage": "https://github.com/endlesslupita/Intermed-Dev-1-JS-Exploring-package-json#readme",
+  "bugs": {
+    "url": "https://github.com/endlesslupita/Intermed-Dev-1-JS-Exploring-package-json/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endlesslupita/Intermed-Dev-1-JS-Exploring-package-json.git"
+  },
+  "license": "MIT",
+  "author": "endlesslupita",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
